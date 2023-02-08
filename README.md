@@ -420,7 +420,7 @@ paper.
     - This could mainly be attributed to the lack of sufficient data, which means both the implemen-
        tations require significantly larger datasets to perform well.
 
-## 8 Summary and Conclusion
+## Summary and Conclusion
 
 Next steps and findings for Semi-Supervised Learning:
 It was found that most of the Semi-Supervised Learning algorithms perform better than the Supervised
@@ -484,12 +484,15 @@ Applications and Methods, 2012.
 supervised learning approaches for opinion spam classification. Applied Soft Computing, 101:107023,
 2021.
 ```
+```
 [10] S. Ozdemir and D. Susarla.Feature Engineering Made Easy: Identify unique features from your dataset
 in order to build powerful machine learning systems. Packt Publishing, 2018.
-
+```
+```
 [11] Yi Yao and Gianfranco Doretto. Boosting for transfer learning with multiple sources. In2010 IEEE
 Computer Society Conference on Computer Vision and Pattern Recognition, pages 1855–1862, 2010.
-
+```
+```
 [12] Zhuanlan Zhihu. Transfer learning jda and tradaboost.
-
+```
 
