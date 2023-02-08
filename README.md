@@ -106,7 +106,6 @@ In this data set, the target variable is a multi-class categorical attribute and
 it belongs to. There are 11 input features and 2465 data points divided into labeled (1782 data points),
 unlabeled (576 data points) and test data (107 data points). There is no missing data.
 
-```
 ### Dataset Methodology
 
 The data set from the KEEL repository has three files - labeled data, unlabeled data and test data containing
@@ -158,7 +157,6 @@ performing this technique, each class has 297 data points.
     - The self-training part of the Logistic Regression algorithm was implemented from scratch with
        the parametermaxiter = 100. This parameter was chosen to let the classifier have enough
        time to reach convergence.
-
 
 - Support Vector Machines were implemented using sklearn self-training package with the following
     parameterskernel=’rbf’, probability=True, C=1.0, gamma=’scale’, randomstate=0.
@@ -237,36 +235,6 @@ point obtains from its neighbors vs. its initial label information. [4]
 - Justification: The main advantage of this algorithm is that it is simple to use and can be easily handled
     flows around complicated boundaries.
 - Results: Random Walk algorithm yields an accuracy of 79.4%
-
-### Final results
-
-```
-SL Classifier Train Accuracy Test Accuracy
-Logistic Regression 78% 75%
-Support Vector Machines 77% 75%
-```
-```
-Accuracy scores for Supervised Learning Algorithms
-```
-```
-SSL Classifier Train Accuracy Test Accuracy
-Self-Training Logistic
-Regression
-```
-#### 78% 75%
-
-```
-Self-Training Support Vector
-Machines
-```
-#### 78% 77%
-
-```
-Label Propagation 84% 76%
-Label Spreading 84% 76%
-QN-S3VM 89% 87%
-Random Walk 82% 79%
-```
 
 ### Interpretation
 
